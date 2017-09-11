@@ -1,2 +1,5 @@
 # HKU-HOOProgramming-RonaldvanEgdom
-very readme, much content.
+
+## Content
+
+This is a compilation of my schoolwork related to the subject "Heavy Object Oriented Programming".

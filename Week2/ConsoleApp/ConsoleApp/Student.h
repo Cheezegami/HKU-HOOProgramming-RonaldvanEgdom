@@ -1,10 +1,13 @@
 #pragma once
 #include "Persoon.h"
-class Student :
-	public Persoon
-{
-public:
-	Student();
-	~Student();
-};
+#include <string>
 
+class Student : public Persoon {
+public:
+	Student(int, std::string, std::string, std::string);
+	~Student();
+	int age;
+	std::string name;
+	std::string schoolClass;
+	std::string town;
+};

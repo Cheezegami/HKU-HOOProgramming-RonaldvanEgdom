@@ -8,8 +8,8 @@ Docent docent = Docent(50, "Harry van Handigheid", "Narrative Design", 30);
 
 
 int main() {
-	std::cout << "Teacher age = " << docent.getAge(docent.age) << " Teacher name = " << docent.getName(docent.name) << "\n";
-	std::cout << "Student age = " << student.getAge(student.age) << " Student name = " << student.getName(student.name) << "\n";
+	std::cout << "Teacher age = " << docent.getAge() << " Teacher name = " << docent.getName() << "\n";
+	std::cout << "Student age = " << student.getAge() << " Student name = " << student.getName() << "\n";
 
 	char key;
 	std::cin >> key;

@@ -15,12 +15,21 @@ Pak::~Pak()
 	delete melk;
 }
 
+Pak::Pak(const Pak & anderePak)
+{
+	melk = new Melk();
+	melk->_type = anderePak.melk->_type;
+}
+
 void Pak::vulMelk(std::string _type)
 {
 	melk = new Melk(_type);
 }
 
 void Pak::voegMelkToe(std::string _type) {
+	if (melk != NULL) {
+		delete melk;
+	}
 	melk = new Melk(_type);
 
 }

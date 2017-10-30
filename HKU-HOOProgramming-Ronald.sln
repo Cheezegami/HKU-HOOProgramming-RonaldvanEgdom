@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DinoPark", "Week2\DinoPark\DinoPark\DinoPark.vcxproj", "{2369E508-E2FD-4681-83A6-A7676580FA8C}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dogcat", "Dogcat\Dogcat.vcxproj", "{C29BE5F4-0251-4588-AD40-31881354416E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BroodjeDesMandje", "BroodjeDesMandje\BroodjeDesMandje.vcxproj", "{0C850FC4-3AE1-4B43-AE3F-CB23DC8BE2D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bibliotheek", "Bibliotheek\Bibliotheek.vcxproj", "{F3594B48-9D6C-4626-A141-4B913181A4B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,16 @@ Global
 		{0C850FC4-3AE1-4B43-AE3F-CB23DC8BE2D1}.Release|x64.Build.0 = Release|x64
 		{0C850FC4-3AE1-4B43-AE3F-CB23DC8BE2D1}.Release|x86.ActiveCfg = Release|Win32
 		{0C850FC4-3AE1-4B43-AE3F-CB23DC8BE2D1}.Release|x86.Build.0 = Release|Win32
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Debug|x64.ActiveCfg = Debug|x64
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Debug|x64.Build.0 = Debug|x64
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Debug|x86.Build.0 = Debug|Win32
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Release|x64.ActiveCfg = Release|x64
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Release|x64.Build.0 = Release|x64
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Release|x86.ActiveCfg = Release|Win32
+		{F3594B48-9D6C-4626-A141-4B913181A4B4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

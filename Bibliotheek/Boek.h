@@ -1,9 +1,11 @@
+#pragma once
+#include <iostream>
+#include <string>
 
-class Boek
-{
-public:
-	Boek();
-	Boek(std::string titel, std::string auteur);
-	~Boek();
+class Boek {
+	public:
+		Boek(std::string type);
+		std::string _type = "onbekend";
+		Boek();
+		~Boek();
 };
-

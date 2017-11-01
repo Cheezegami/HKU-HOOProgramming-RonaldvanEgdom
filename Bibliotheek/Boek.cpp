@@ -1,13 +1,15 @@
-#include "Boek.h"
-#include <string>
-#include <iostream>
 #pragma once
+#include "Boek.h"
+#include <iostream>
 
-Boek::Boek() {
-}
-
-Boek::Boek(std::string titel, std::string auteur) {
+Boek::Boek(std::string type) {
+	_type = type;
 }
 
 Boek::~Boek() {
+	std::cout << "Boek: destructor" << std::endl;
+}
+
+Boek::Boek() {
+	std::cout << "Boek: ctor" << std::endl;
 }

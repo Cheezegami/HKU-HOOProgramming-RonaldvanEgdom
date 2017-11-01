@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{F3594B48-9D6C-4626-A141-4B913181A4B4}</ProjectGuid>
+    <ProjectGuid>{B5D3B9CC-4FE9-4366-8A72-ED17C7083607}</ProjectGuid>
     <RootNamespace>Bibliotheek</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -111,14 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Base.h" />
-    <ClInclude Include="Bibliotheek.h" />
-    <ClInclude Include="Boek.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Base.cpp" />
     <ClCompile Include="Bibliotheek.cpp" />
     <ClCompile Include="Boek.cpp" />
+    <ClCompile Include="Base.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bibliotheek.h" />
+    <ClInclude Include="Boek.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

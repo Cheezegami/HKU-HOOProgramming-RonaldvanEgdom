@@ -5,7 +5,7 @@
 class Boek {
 	public:
 		Boek(std::string type);
-		std::string _type = "onbekend";
+		std::string _type = "het boek der naamloosheid";
 		Boek();
 		~Boek();
 };

@@ -4,7 +4,7 @@
 #include <string>
 
 
-
+// Oh... En ik dacht dat arrays een nachtmerrie waren om mee te werken.
 Bibliotheek::Bibliotheek() {
 	std::cout << "Boek: constructor" << std::endl;
 }
@@ -35,7 +35,7 @@ Bibliotheek& Bibliotheek::operator=(const Bibliotheek& bibliotheek) {
 	if (this != &bibliotheek) {
 		boek.clear();
 		boek.push_back(new Boek());
-		for (int i = boek.begin; i > boek.end; i++) {
+		for (int i = &boek.begin; i > boek.end; i++) {
 			std::cout << "Bibliotheek: " << boek.at(i)->_type << std::endl;
 		}
 	}

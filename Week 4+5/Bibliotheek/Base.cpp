@@ -4,24 +4,24 @@
 #include "main.h"
 
 int main() {
-	Bibliotheek Boek1 = Bibliotheek();
-	Boek1.toon();
+	Bibliotheek bieb1 = Bibliotheek();
+	bieb1.toon();
 
 	std::cout << "---Boek1" << std::endl;
-	Boek1.voegToe("The Hobbit");
-	Boek1.toon();
+	bieb1.voegToe("The Hobbit");
+	bieb1.toon();
 
-	Bibliotheek Boek2;
-	Boek2 = Boek1;
+	Bibliotheek bieb2;
+	bieb2 = bieb1;
 
 	std::cout << "---Boek2" << std::endl;
-	Boek2.toon();
+	bieb2.toon();
 
-	Boek1.voegToe("One Piece");
+	bieb1.voegToe("One Piece");
 	std::cout << "---Boek1" << std::endl;
-	Boek1.toon();
+	bieb1.toon();
 	std::cout << "---Boek2" << std::endl;
-	Boek2.toon();
+	bieb2.toon();
 
 	std::cout << "Press key to quit" << std::endl;
 	char c;

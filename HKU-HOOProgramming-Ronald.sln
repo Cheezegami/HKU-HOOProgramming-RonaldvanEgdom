@@ -1,23 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DinoPark(Class Relations)", "Week2\DinoPark\DinoPark\DinoPark.vcxproj", "{2369E508-E2FD-4681-83A6-A7676580FA8C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DinoPark(Class Relations)", "Week 2\DinoPark\DinoPark\DinoPark.vcxproj", "{2369E508-E2FD-4681-83A6-A7676580FA8C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FactorialLoop(OefenOpgave)", "Oefenopgaves\FactorialLoop\FactorialLoop.vcxproj", "{B44AB574-409D-477B-94E6-08192BDC5A6C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointerFunc(OefenOpgave)", "Oefenopgaves\FunctionPointer\FunctionPointer.vcxproj", "{7E092BE8-8912-4426-B999-39BB4B9DD756}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoosterMK2", "Week2\ConsoleApp\ConsoleApp\ConsoleApp.vcxproj", "{FC6BC84B-3927-45B4-9CD9-47938E3670CB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 1 en 2 (Rooster)", "Week 2\ConsoleApp\ConsoleApp\ConsoleApp.vcxproj", "{FC6BC84B-3927-45B4-9CD9-47938E3670CB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dogcat(Inheritance)", "Dogcat\Dogcat.vcxproj", "{C29BE5F4-0251-4588-AD40-31881354416E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 3 (Catdog)", "Week 3\Dogcat\Dogcat.vcxproj", "{C29BE5F4-0251-4588-AD40-31881354416E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BroodjeDesMandje(Pointers)", "BroodjeDesMandje\BroodjeDesMandje.vcxproj", "{0C850FC4-3AE1-4B43-AE3F-CB23DC8BE2D1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 4 (BroodjeDesMandje(Pointers))", "Week 4+5\BroodjeDesMandje\BroodjeDesMandje.vcxproj", "{0C850FC4-3AE1-4B43-AE3F-CB23DC8BE2D1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Melkpak(Deconstructors)", "Melkpak\Melkpak.vcxproj", "{74C41A34-3958-430E-858E-83B59790E751}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Melkpak(Deconstructors)", "Week 3\Melkpak\Melkpak.vcxproj", "{74C41A34-3958-430E-858E-83B59790E751}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bibliotheek", "Bibliotheek\Bibliotheek.vcxproj", "{B5D3B9CC-4FE9-4366-8A72-ED17C7083607}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 4+5 (Bibliotheek)", "Week 4+5\Bibliotheek\Bibliotheek.vcxproj", "{B5D3B9CC-4FE9-4366-8A72-ED17C7083607}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 6 (Text Reversal)", "Week 6\FileRead\FileRead.vcxproj", "{68C22D9E-41BE-4946-9252-9BBC95F6431C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week 7 (Abstract Base)", "Week 7\Opdracht7.vcxproj", "{D9F56D96-60B5-499C-88F8-F181FC4A97C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +113,26 @@ Global
 		{B5D3B9CC-4FE9-4366-8A72-ED17C7083607}.Release|x64.Build.0 = Release|x64
 		{B5D3B9CC-4FE9-4366-8A72-ED17C7083607}.Release|x86.ActiveCfg = Release|Win32
 		{B5D3B9CC-4FE9-4366-8A72-ED17C7083607}.Release|x86.Build.0 = Release|Win32
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Debug|x64.ActiveCfg = Debug|x64
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Debug|x64.Build.0 = Debug|x64
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Debug|x86.ActiveCfg = Debug|Win32
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Debug|x86.Build.0 = Debug|Win32
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Release|x64.ActiveCfg = Release|x64
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Release|x64.Build.0 = Release|x64
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Release|x86.ActiveCfg = Release|Win32
+		{68C22D9E-41BE-4946-9252-9BBC95F6431C}.Release|x86.Build.0 = Release|Win32
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Debug|x64.ActiveCfg = Debug|x64
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Debug|x64.Build.0 = Debug|x64
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Debug|x86.Build.0 = Debug|Win32
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Release|x64.ActiveCfg = Release|x64
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Release|x64.Build.0 = Release|x64
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Release|x86.ActiveCfg = Release|Win32
+		{D9F56D96-60B5-499C-88F8-F181FC4A97C8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,10 @@
 #include "Trein.h"
 #pragma once
 
+Trein::~Trein()
+{
+}
+
 Trein::Trein() {}
 
 int Trein::BerekenPrijs(int km) {
